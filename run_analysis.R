@@ -53,4 +53,3 @@ max.print <- getOption('max.print')                                        # Ope
 options(max.print = nrow(Tidy_Data) * ncol(Tidy_Data))                     # Change print options.
 sink('Tidy_Data.txt'); Tidy_Data; sink()                                   # Write the tidy data on a .txt file.
 options(max.print = max.print)                                             # Close options.
-
