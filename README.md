@@ -36,5 +36,5 @@ C. The run_analysis.R script:
 7. The underscores are removed using `gsub` and the rows are named using the **activity_labels** data set.
 8. The **Activity** and **Subject** columns are named for *y* and *subject* data sets, respectively.
 9. The three data sets, *y*, *subject* and *Xmeanandstd*, are merged using `cbind` and called **Data_Set**.
-10. The *mean* of activities and subjects are created into a separate tidy data set called **Tidy_Data**.
+10. The *mean* of **Activity** and **Subject** are created into a separate tidy data set called **Tidy_Data**.
 11. The data set is exported into the project folder as **Tidy_Data.txt** using options to get a clean printed table.
