@@ -63,8 +63,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-| Variable | Description
------------|-------------
+| Variable  | Description
+------------|-------------
 | ACTIVITY | Activity performed
 | SUBJECT | Subject ID
 | TBODYACC-MEAN-X | Mean time for acceleration of body for X direction
