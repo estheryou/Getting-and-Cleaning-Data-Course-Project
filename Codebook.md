@@ -48,6 +48,7 @@ Attribute Information:
 ------------------------
 
 For each record in the dataset it is provided:
+
 1. Triaxial total acceleration from the accelerometer and the estimated body acceleration. 
 2. Triaxial angular velocity from the gyroscope. 
 3. A 561-feature vector with time and frequency domain variables. 
