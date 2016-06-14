@@ -4,7 +4,6 @@ library(RCurl); library(gdata)                                             # Loa
 
 FileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(FileUrl, destfile = 'UCI-HAR-dataset.zip')                   # Download the file.
-
 Data <- unzip('./UCI-HAR-dataset.zip')                                     # Unzip files.
 
 ## 1. Merges the training and the test sets to create one data set.
