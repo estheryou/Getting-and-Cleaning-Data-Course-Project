@@ -16,30 +16,30 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 Transformations or work performed to clean up the data:
 --------------------------------------------------------
 
-1. Load libraries `RCurl` and `gdata`.
-2. Download the data. (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-3. Create and unzip the data in the directory.
-4. Read and merge the data to **subset** with `rbind`:
+1. Loads libraries `RCurl` and `gdata`.
+2. Downloads the data. (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+3. Creates and unzips the data in the directory.
+4. Reads and merges the data to **subset** with `rbind`:
 	* `subject_test` contains the ids in the test data.
 	* `subject_train` contains the ids in the training data.
-5. Read and merge the data to **X** with `rbind`:
+5. Reads and merges the data to **X** with `rbind`:
 	* `X_test` contains the data using the feature data set as columns in the test data.
 	* `X_train` contains the data using the feature data set as columns in the training data.
-6. Read and merge the data to **y** with `rbind`:
+6. Reads and merges the data to **y** with `rbind`:
 	* `y_test` contains the activity labels in the test data.
 	* `y_train` contains the activity labels in the training data.
-7. Read feature data set `features.txt` used for columns:
+7. Reads feature data set `features.txt` used for columns:
 	* Extract the Mean and the Standard Deviation.
 	* Create a vector for extracted data called **Xmeanandstd**.
 	* Clean and name all columns of the data.
-8. Read feature data set `activity_labels.txt` used for columns:
+8. Reads activity data set `activity_labels.txt` used for columns:
 	* Remove underscores from the data.
 	* Name all activities.
-9. Lable the data set with descriptive variable names:
+9. Lables the data set with descriptive variable names:
 	* Assign the name *Activity* to **y**.
 	* Assign the name *Subject* to **subject**
 	* Merge the data **y**, **subject** and **Xmeanandstd** using `cbind`.
-10. Create an independent tidy data set with the average of each variable for each activity and each subject:
+10. Creates an independent tidy data set with the average of each variable for each activity and each subject:
 	* Take the mean of the data set using `aggregate`.
 	* Use the print option to print the tidy data set.
 	* Write the tidy data set on a *.txt* file called **Tidy_Data.txt**.
