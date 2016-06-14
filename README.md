@@ -10,7 +10,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 2. A link to a Github repository with your script for performing the analysis;
 3. A code book that describes the variables, the data, and any work performed to clean up the data called ``CodeBook.md``. 
 
-You should also include a ``README.md`` in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+The``README.md`` explains how all of the scripts work and how they are connected.
 
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
