@@ -33,8 +33,8 @@ C. The run_analysis.R script at a glance:
 4. The *mean* and *standard deviation* are extracted from the **features** data set using `grep` to create *Xmeanandstd*.
 5. The columns of *Xmeanandstd* are cleaned and named using the **features** data set.
 6. The **activitiy_labels** data set is read.
-7. The underscores are removed using `gsub` and the rows are named using the **activity_labels** data set.
+7. The underscores in the **activity_labels** data set are removed using `gsub`.
 8. The **Activity** and **Subject** columns are named for *y* and *subject* data sets, respectively.
-9. The three data sets, *y*, *subject* and *Xmeanandstd*, are merged using `cbind` and called **Data_Set**.
+9. The three data sets, *y*, *subject* and *Xmeanandstd* are merged using `cbind` and called **Data_Set**.
 10. The *mean* of **Activity** and **Subject** are created into a separate tidy data set called **Tidy_Data**.
 11. The data set is exported into the project folder as **Tidy_Data.txt** using options to get a clean printed table.
