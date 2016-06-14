@@ -130,7 +130,7 @@ These signals were used to estimate variables of the feature vector for each pat
 | FBODYBODYACCJERKMAG-STD | Standard deviation of frequency of body acceleration jerk magnitude
 | FBODYBODYGYROMAG-MEAN | Mean frequency of magnitude of body gyroscope measurement
 | FBODYBODYGYROMAG-STD | Standard deviation of frequency of magnitude of body gyroscope measurement
-| FBODYBODYGYROJERKMAG-MEAN | Mean frequency of magnitude of body gyroscope jerk measurement
+|FBODYBODYGYROJERKMAG-MEAN| Mean frequency of magnitude of body gyroscope jerk measurement
 | FBODYBODYGYROJERKMAG-STD | Standard deviation frequency of magnitude of body gyroscope jerk measurement
 
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
