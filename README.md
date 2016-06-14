@@ -24,8 +24,8 @@ The R script called `run_analysis.R` performs the following:
 4. Appropriately labels the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-C. The run_analysis.R script:
------------------------------
+C. The run_analysis.R script at a glance:
+----------------------------------------
 
 1. The **UCI HAR Dataset** data set is downloaded and unziped into the UCI HAR Dataset folder. 
 2. The **test** and **train** datasets for *subject*, *X* and *y* are read and merged into three datasets using `rbind`.
