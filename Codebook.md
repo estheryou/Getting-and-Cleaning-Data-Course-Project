@@ -65,7 +65,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 | Variable | Description
 -----------|-------------
-| ACTIVITY | The activity performed
+| ACTIVITY | Activity performed
 | SUBJECT | Subject ID
 | TBODYACC-MEAN-X | Mean time for acceleration of body for X direction
 | TBODYACC-MEAN-Y | Mean time for acceleration of body for Y direction
